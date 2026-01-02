@@ -57,7 +57,7 @@ function Header() {
     }
 
     function hambur() {
-        const mobile = document.getElementById("mobile"); // MOVED INSIDE THE FUNCTION
+        const mobile = document.getElementById("mobile"); 
         if(mobile && mobile.style.display === "none") {
             mobile.style.display = "flex";
         } else if(mobile) {
@@ -95,7 +95,7 @@ function Header() {
                 </div>
         </section>
 
-        {/* ... rest of your JSX ... */}
+       
         <div>
             <nav>
                 <h1>More than just shorter links</h1>
